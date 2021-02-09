@@ -10,7 +10,7 @@ Using Keras, both these Models can be imported, and their weights are automatica
 
 Since we have used a different Dataset, further preprocessing is required.
 
-- Change the image size to 299*299*3 as input.
+- Change the image size to `299*299*3` as input.
 - Remove the Last classification layer (Used for imagenets)
 - Generate Feature Vectors.
 
