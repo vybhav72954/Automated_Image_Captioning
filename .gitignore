@@ -851,6 +851,16 @@ Not Needed
 Not Needed/
 
 # Models
-models6
-./models6/.
+models_Xception
+models_Xception/..
+models_Inception
+models_Inception/..
+
+# Features
+features_Xception.p
+featuresTest_Inception.p
+featuresTrain_Inception.p
+
+# Glove
+glove*
 
