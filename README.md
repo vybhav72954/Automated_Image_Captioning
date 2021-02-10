@@ -3,7 +3,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pO6CaIFIdJ_4Rc4X3vpBxQdnXMm0zhJ5#scrollTo=s4TwJU-pVNC9)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oSUxHpz6UIEhtGjOw_SCAYWxYodwCYpf)
 
 **Automatic Image Captioning**, using Deep Learning and Flickr-8k Dataset.
 Also made a comparison between Xception Model and Inception Model.
@@ -49,9 +49,12 @@ User first need to have a CUDA enabled Graphics Card, if this condition is met, 
 
 For installation and help, these links are helpful:
 
-LINK1
-LINK2
-LINK3
+[LINK1]
+
+[LINK2]
+
+[LINK3]
+
 
 ## Usage
 
