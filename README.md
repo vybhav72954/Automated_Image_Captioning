@@ -26,7 +26,7 @@ This Repo revolves around 2 Models provided by Keras.
 1. Jupyter Notebooks can be found [here](Notebook)
 1. Models Trained can be found [here](Model)
 1. Requirements and dependencies can be found [here](requirements.txt)
-1. Caption generator can be found [here](generator.py)
+1. Caption generator can be found [here](Not Needed/generator.py)
 
 Want to contribute? Suggestions, Error reporting, Bug Solving are highly
 appreciated, please open an Issue and/or PR
@@ -61,11 +61,13 @@ For installation and help, these links are helpful:
 
 1. Start with changing the hardcoded paths in the python scripts.
 2. If yu want to train the Network yourself (GPU recommended), run the whole script.
-3. You can skip, Feature Extraction and Selection and Model training by downloading the reqired files.
+3. You can skip, Feature Extraction and Selection and Model training by downloading the required files.
 4. Comment out the code you wnt to skip.
 5. Classification Task is separately marked.
 6. For only classification, execute only those functions which are invoked during the task.
 7. Check Notebooks for an interactive example.
+8. Inception Model uses GloVe word vectors, see [this](Model/README.md), download  the file beforehand.
+
 
 #### Author
 Made by [Vybhav Chaturvedi](https://www.linkedin.com/in/vybhav-chaturvedi-0ba82614a/)
