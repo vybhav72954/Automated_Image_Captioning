@@ -26,7 +26,6 @@ This Repo revolves around 2 Models provided by Keras.
 1. Jupyter Notebooks can be found [here](Notebook)
 1. Models Trained can be found [here](Model)
 1. Requirements and dependencies can be found [here](requirements.txt)
-1. Caption generator can be found [here](Not Needed/generator.py)
 
 Want to contribute? Suggestions, Error reporting, Bug Solving are highly
 appreciated, please open an Issue and/or PR
