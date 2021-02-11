@@ -40,7 +40,8 @@ appreciated, please open an Issue and/or PR
   - NOTE: A GPU accelerated hardware is recommended, after `TF v2.1`,
     _there is no need to install GPU separately._ So no need to use `pip3 install tensorflow-gpu`
     For GPU, separate Guidelines are provided [here](#GPU).
-- TODO    
+- See the Google Drive links for features, dataset and models.
+- Download the required files.
 
 ### GPU
 
@@ -49,16 +50,22 @@ User first need to have a CUDA enabled Graphics Card, if this condition is met, 
 
 For installation and help, these links are helpful:
 
-[LINK1]
+[LINK1](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
 
-[LINK2]
+[LINK2](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
-[LINK3]
+[LINK3](https://medium.com/swlh/cuda-installation-in-windows-2020-638b008b4639)
 
 
 ## Usage
 
-TODO
+1. Start with changing the hardcoded paths in the python scripts.
+2. If yu want to train the Network yourself (GPU recommended), run the whole script.
+3. You can skip, Feature Extraction and Selection and Model training by downloading the reqired files.
+4. Comment out the code you wnt to skip.
+5. Classification Task is separately marked.
+6. For only classification, execute only those functions which are invoked during the task.
+7. Check Notebooks for an interactive example.
 
 #### Author
 Made by [Vybhav Chaturvedi](https://www.linkedin.com/in/vybhav-chaturvedi-0ba82614a/)
