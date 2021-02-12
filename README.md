@@ -69,7 +69,7 @@ For installation and help, these links are helpful:
 
 
 #### Author
-Made by [Vybhav Chaturvedi](https://www.linkedin.com/in/vybhav-chaturvedi-0ba82614a/)
+Made by [Vybhav Chaturvedi](https://www.linkedin.com/in/vybhav-chaturvedi-0ba82614a/).
 
 ## Disclaimer
 
