@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import string
-import numpy as np
 from PIL import Image
 import os
 from pickle import dump, load
 import numpy as np
-import pydot
 from keras.applications.xception import Xception, preprocess_input
 from keras.preprocessing.image import load_img, img_to_array
 from keras.preprocessing.text import Tokenizer
@@ -16,6 +14,7 @@ from keras.layers.merge import add
 from keras.models import Model, load_model
 from keras.layers import Input, Dense, LSTM, Embedding, Dropout
 import matplotlib as plt
+
 # small library for seeing the progress of loops.
 from tqdm.notebook import tqdm
 import tensorflow as tf
