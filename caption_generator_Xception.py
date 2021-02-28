@@ -44,9 +44,8 @@ with tf.device('/gpu:0'):
         :param filename: Source Path
         """
         # Opening the file as read only
-        file = open(filename, 'r')
-        text = file.read()
-        file.close()
+        with open(filename) as file:
+            text = file.read()
         return text
 
 
@@ -119,9 +118,8 @@ with tf.device('/gpu:0'):
             for desc in desc_list:
                 lines.append(key + '\t' + desc)
         data = "\n".join(lines)
-        file = open(filename, "w")
-        file.write(data)
-        file.close()
+        with open(filename) as file:
+            file.write(data)
 
 
     # Set these path according to project folder in you system
