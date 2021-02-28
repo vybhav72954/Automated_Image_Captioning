@@ -101,7 +101,7 @@ with tf.device('/gpu:0'):
         """
         # build vocabulary of all unique words
         vocab = set()
-        for key in descriptions.keys():
+        for key, value in descriptions.keys():
             [vocab.update(d.split()) for d in descriptions[key]]
         return vocab
 
@@ -236,7 +236,7 @@ with tf.device('/gpu:0'):
         :return: List of captions
         """
         all_desc = []
-        for key in descriptions.keys():
+        for key, value in descriptions.keys():
             [all_desc.append(d) for d in descriptions[key]]
         return all_desc
 

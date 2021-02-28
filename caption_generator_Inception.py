@@ -138,7 +138,7 @@ def to_vocabulary(descriptions):
     """
     # build a list of all description strings
     all_desc = set()
-    for key in descriptions.keys():
+    for key, value in descriptions.keys():
         [all_desc.update(d.split()) for d in descriptions[key]]
     return all_desc
 
@@ -377,7 +377,7 @@ def to_lines(descriptions):
     :return: List of all descriptions
     """
     all_desc = list()
-    for key in descriptions.keys():
+    for key, value in descriptions.keys():
         [all_desc.append(d) for d in descriptions[key]]
     return all_desc
 
