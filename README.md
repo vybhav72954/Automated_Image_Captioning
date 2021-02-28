@@ -1,7 +1,6 @@
-# Torrent_to_Drive
+# Automated Caption Generator
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oSUxHpz6UIEhtGjOw_SCAYWxYodwCYpf)
 
@@ -49,12 +48,11 @@ User first need to have a CUDA enabled Graphics Card, if this condition is met, 
 
 For installation and help, these links are helpful:
 
-[LINK1](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
+[Official CUDA Installation Guide](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
 
-[LINK2](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
+[Official CUDNN Installation Guide](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
-[LINK3](https://medium.com/swlh/cuda-installation-in-windows-2020-638b008b4639)
-
+[An easy walk-through](https://medium.com/swlh/cuda-installation-in-windows-2020-638b008b4639)
 
 ## Usage
 
@@ -67,8 +65,8 @@ For installation and help, these links are helpful:
 7. Check Notebooks for an interactive example.
 8. Inception Model uses GloVe word vectors, see [this](Model/README.md), download  the file beforehand.
 
-
 #### Author
+
 Made by [Vybhav Chaturvedi](https://www.linkedin.com/in/vybhav-chaturvedi-0ba82614a/).
 
 ## Disclaimer
