@@ -46,11 +46,9 @@ def load_doc(filename):
     :return: Caption Text
     """
     # open the file as read only
-    file = open(filename, 'r')
-    # read all text
-    text = file.read()
-    # close the file
-    file.close()
+    with open(filename) as file:
+        # read all text
+        text = file.read()
     return text
 
 
@@ -161,9 +159,8 @@ def save_descriptions(descriptions, filename):
         for desc in desc_list:
             lines.append(key + ' ' + desc)
     data = '\n'.join(lines)
-    file = open(filename, 'w')
-    file.write(data)
-    file.close()
+    with open(filename) as file:
+        file.write(data)
 
 
 save_descriptions(descriptions, 'Model/Inception/descriptions.txt')
@@ -280,7 +277,6 @@ def preprocess(image_path):
 
 # Load the inception v3 model
 model = InceptionV3(weights='imagenet')
-
 
 # Configure GPU
 with tf.device('/gpu:0'):
