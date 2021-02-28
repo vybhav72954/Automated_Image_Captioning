@@ -69,7 +69,7 @@ with tf.device('/gpu:0'):
 
     def cleaning_text(captions):
         """
-        Cleaning Captions, lower casing, removing puntuations and words containing numbers
+        Cleaning Captions, lower casing, removing punctuations and words containing numbers
         :param captions:
         :return: clean captions
         """
@@ -243,7 +243,7 @@ with tf.device('/gpu:0'):
 
 
     # creating tokenizer class
-    # this will vectorise text corpus
+    # this will provide a vectorised text corpus
     # each integer will represent token in dictionary
 
     from keras.preprocessing.text import Tokenizer
@@ -361,7 +361,7 @@ with tf.device('/gpu:0'):
 
             # tie it together [image, seq] [word]
             model = Model(inputs=[inputs1, inputs2], outputs=outputs)
-            model.compile(loss='categorical_crossentropy', optimizer='adam')
+            model.compile(loss='categorical_cross-entropy', optimizer='adam')
 
             # summarize model
             print(model.summary())

@@ -52,7 +52,7 @@ def load_doc(filename):
     return text
 
 
-# Load Caption Datatset
+# Load Caption Dataset
 filename = "Flickr8k_text/Flickr8k.token.txt"
 doc = load_doc(filename)
 
@@ -97,7 +97,7 @@ print('Loaded: %d ' % len(descriptions))
 
 def clean_descriptions(descriptions):
     """
-    FUnction to Remove Extra  whitespaces, punctuation marks etc
+    Function to Remove Extra  whitespaces, punctuation marks etc
     :param descriptions: Text File containing the description of images
     """
 
@@ -387,7 +387,7 @@ def max_length(descriptions):
     """
     Determine the maximum length
     :param descriptions: Clean Descriptions
-    :return: Maximum Leangth
+    :return: Maximum Length
     """
     lines = to_lines(descriptions)
     return max(len(d.split()) for d in lines)
@@ -488,7 +488,7 @@ model.layers[2].set_weights([embedding_matrix])
 model.layers[2].trainable = False
 
 # Setting up Model, epochs, batch size
-model.compile(loss='categorical_crossentropy', optimizer='adam')
+model.compile(loss='categorical_cross-entropy', optimizer='adam')
 
 epochs = 10
 number_pics_per_bath = 3
